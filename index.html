@@ -28,7 +28,7 @@
       }
     </style>
   </head>
-  <body class="max-w-screen-2xl m-auto">
+  <body class="max-w-screen-2xl m-auto font-roboto">
     <header class="py-12 md:px-5 lg:px-12 xl:px-20 2xl:px-32 bg-[#FFFBF0]">
       <!-- nav section -->
       <div class="mx-3 flex items-center justify-between">
@@ -44,13 +44,36 @@
         </div>
         <div class="hidden md:block">
           <ul
-            class="flex items-center md:gap-6 lg:gap-10 font-roboto text-base font-medium text-[#3C3C3C]"
+            class="flex items-center md:gap-6 lg:gap-10 text-base font-medium text-[#3C3C3C]"
           >
             <li><a href="">Home</a></li>
             <li><a href="">Product</a></li>
             <li><a href="">About Us</a></li>
             <li><a href="">Contact Us</a></li>
           </ul>
+        </div>
+      </div>
+
+      <!-- banner section -->
+      <div class="mx-3 mt-8 md:grid grid-cols-2 gap-6 lg:gap-24">
+        <div class="lg:mt-20">
+          <h1 class="text-6xl lg:text-7xl font-bebas-neue uppercase">
+            <span class="text-[#FABE4C]">Be the Penguins</span>
+            <br />
+            <span class="text-[#363958]">of Winter</span>
+          </h1>
+          <p class="text-[#3E3E3E]">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <button
+            class="text-base font-medium text-white mt-3 px-8 py-4 rounded-lg bg-gradient-to-r from-[#A4BC46] to-[#85A019]"
+          >
+            <i class="fa-solid fa-cart-shopping mr-2"></i> Buy Now
+          </button>
+        </div>
+        <div class="mt-8 md:mt-0">
+          <img class="w-4/5" src="./images/banner-model.png " alt="" />
         </div>
       </div>
     </header>
